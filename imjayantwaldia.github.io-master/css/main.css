@@ -125,10 +125,6 @@ body {
 }
 
 .custom-jumbotron .jumbo-btn {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    padding: 8px 30px;
     border: 2px solid white;
     background: transparent;
     border-radius: 10px;
@@ -136,7 +132,12 @@ body {
     font-size: 15px;
     font-weight: bold;
     transition: background 1s, color 1s;
-    margin-top: 10px;
+    margin-top: 10px
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 30px;
+   ;
 }
 
 .custom-jumbotron .jumbo-btn:hover {
@@ -183,7 +184,7 @@ body {
 
 @media (max-width: 600px) { /** Prevents Navigation bar from being hidden at 768px **/
     .custom-navbar .navbar-nav .nav-item {
-        padding: 30px 10px 30px 10px;
+        padding: 30px 10px 30px 30px;
     }
 }
 
@@ -245,7 +246,7 @@ body {
     }
 
     .introduction-container h6 {
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -314,7 +315,7 @@ body {
  * Skills Container
  */
 .skills-container {
-    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    box-shadow: 0 15px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
     text-align: center;
 }
 
@@ -536,7 +537,7 @@ body {
 }
 
 .feature-highlight .fa-eye {
-    color: rgb(30,136,229);
+    color: rgb(130,136,229);
     font-size: 30px;
 }
 
@@ -624,7 +625,7 @@ body {
 
 .contact-container .email {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 80px;
 }
